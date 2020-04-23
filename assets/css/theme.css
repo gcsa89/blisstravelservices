@@ -17635,6 +17635,11 @@ ol.breadcrumb.text-darker a:hover {
   opacity: 0;
 }
 
+.vc_row, .row-bg-wrap, .row-bg-inner, .row-bg { 
+ transform:none !important;
+ height:100% !important;
+}
+
 .vc_row-flex .ld-row:before, .vc_row-flex .ld-row:after {
   content: none;
 }
